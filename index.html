@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+<title>World's Best Quiz Ever</title>
+<link href ="style.css" rel = "stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+<body>
+
+<h1>The awesomest Kwiz in the whole world!</h1>
+<h2>(Yay!)</h2>
+<img src="img/happy.gif" alt="glittery leters spelling dont worry be happy">
+  
+<p>Hello there! <br/><br/> Do you think you are great at trivia? Do you know everything there is to know about everything?<br/></br/>Cool!! So this extra awesome quiz is just for you. Enjoy!</p>
+  
+  <h3> Oh - you're probably wondering what you'll win if you get this quiz right!<br/> <br/> Well, that's simple - you'll get the best prize - knowing you are super awesome!</h3>
+  
+<form id="quiz" name="quiz">
+  <p>What is it illegal to do in hotel rooms in California?</p>
+  <input type= "radio" id= "mc" name="question1" value="Peel an onion">Peel an onion<br>
+  <input type= "radio" id= "mc" name="question1" value="Play the banjo">Play the banjo<br>
+  <input type= "radio" id= "mc" name="question1" value="Read Tolstoy's War and Peace">Read Tolstoy's War and Peace<br>
+  
+  <p>What is the airspeed velocity of an unladen swallow?</p>
+  <input type= "radio" id= "mc" name="question2" value="1 mile per hour">1 mile per hour<br>
+  <input type= "radio" id= "mc" name="question2" value="24 miles per hour">24 miles per hour<br>
+  <input type= "radio" id= "mc" name="question2" value="An African or a European Swallow?">An African or a European Swallow?<br>
+  
+  <p>Which Hollywood movie first showed a toilet being flushed?</p>
+  <input type= "radio" id= "mc" name="question3" value="Psycho (1960)">Psycho (1960)<br>
+  <input type= "radio" id= "mc" name="question3" value="The arrival of a train (1896)">The arrival of a train (1896)<br>
+  <input type= "radio" id= "mc" name="question3" value="The wizard of Oz (1939)">The wizard of Oz (1939)<br>
+  <br/>
+  <input id="button" type="button" value="All done! Check my score!" onclick= "check();">
+  
+  </form>
+  
+  <div id = "after_submit">
+    
+    <p id = "message"></p>
+    <p id = "number_correct"></p>
+    <img id = "picture">
+  </div>
+  
+</body>
+  
+</html>
